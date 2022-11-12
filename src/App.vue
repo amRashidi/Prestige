@@ -1,3 +1,3 @@
 <template>
-  <div>this is a test app</div>
+  <div>this is a prestige app</div>
 </template>
