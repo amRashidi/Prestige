@@ -25,6 +25,7 @@
   },
   "plugins": ["vue", "@typescript-eslint", "prettier"],
   "rules": {
+    "indent": ["error", 2],
     "prettier/prettier": "error",
     "import/extensions": [
       "error",
