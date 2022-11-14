@@ -1,9 +1,16 @@
 import './PInput.scss';
-import { defineComponent } from 'vue';
+import { defineComponent, h } from 'vue';
 
 export default defineComponent({
   name: 'PInput',
-  setup() {
-    return {};
+  props: {
+    id: {
+      type: String,
+      default: '',
+    },
+  },
+  setup(props) {
+    const inputEl = h('input', { id: props.id, placeholder: 'asdasdasd' });
+    return () => inputEl;
   },
 });
